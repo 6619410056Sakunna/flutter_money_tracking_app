@@ -17,7 +17,7 @@
 
 ---
 
-###  HomeUi
+### HomeUi
 <p align="left"> 
 <img width="250" alt="localhost_63781_(Samsung Galaxy S20 Ultra)" src="https://github.com/user-attachments/assets/b0a3e10b-56e7-4ad5-8294-d3e6eaf50703" />
 
