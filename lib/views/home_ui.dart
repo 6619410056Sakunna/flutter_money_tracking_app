@@ -26,7 +26,7 @@ class _HomeUiState extends State<HomeUi> {
       appBar: AppBar(
         // 1. ฝั่งซ้าย: แสดงเวลา
         leadingWidth: 80, // เพิ่มความกว้างให้พอสำหรับเวลา
-        leading: const Center(
+        leading:Center(
           child: Text(
             '9:41',
             style: TextStyle(
@@ -35,7 +35,7 @@ class _HomeUiState extends State<HomeUi> {
             ),
           ),
         ),
-        actions: const [
+        actions:[
           Icon(
             Icons.signal_cellular_alt,
             size: 18,

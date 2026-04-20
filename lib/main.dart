@@ -1,16 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_money_tracking_app/views/splash_screen_ui.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:supabase_flutter/supabase_flutter.dart';
 
-void main() {
+Future<void> main() async {
 
-  /*WidgetsFlutterBinding.ensureInitialized();
+  WidgetsFlutterBinding.ensureInitialized();
 
   await Supabase.initialize(
     url: 'https://rgenrkojurrqdhhtbzts.supabase.co', // เปลี่ยนเป็น URL ของคุณ
     anonKey:
         'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJnZW5ya29qdXJycWRoaHRienRzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzM3ODc5MDksImV4cCI6MjA4OTM2MzkwOX0.c7wCnJxDnW9eixtjXyyAI6Y-v1h4hWKJkX-w7e1xkPU',
-  );*/
+  );
   runApp(const FlutterMoneyTrackingApp());
 }
 

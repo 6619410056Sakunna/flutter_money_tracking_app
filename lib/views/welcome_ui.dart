@@ -22,7 +22,7 @@ class _WelcomeUiState extends State<WelcomeUi> {
                 children: [
                   Image.asset(
                     'assets/images/Group_2.png',
-                    width: 414,
+                    width: 500,
                     height: 600,
                     fit: BoxFit.fill,
                   ),
